@@ -1,0 +1,13 @@
+{
+    "name": "simple-timer-app",
+    "version": "1.0.0",
+    "description": "A simple timer app with Node.js backend",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  

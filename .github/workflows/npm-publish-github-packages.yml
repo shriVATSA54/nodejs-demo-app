@@ -21,9 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    # Optional: Add a test script in package.json if needed
-    # - name: Run tests
-    #   run: npm test
+    - name: Run tests
+      run: npm test
 
     - name: Log in to DockerHub
       run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin

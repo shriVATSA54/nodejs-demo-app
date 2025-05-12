@@ -1,13 +1,20 @@
 {
-    "name": "simple-timer-app",
-    "version": "1.0.0",
-    "description": "A simple timer app with Node.js backend",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "express": "^4.18.2"
-    }
+  "name": "simple-timer-app",
+  "version": "1.0.0",
+  "description": "A simple timer app with Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
-  
+}
